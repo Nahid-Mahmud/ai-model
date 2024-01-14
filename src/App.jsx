@@ -1,7 +1,10 @@
+import Navbar from "./Components/Navbar";
+import SideBar from "./Components/SideBar";
+
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <SideBar />
     </div>
   );
 }
